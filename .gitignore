@@ -1,0 +1,7 @@
+# Intermediate / large data — the committed artifacts are data/scorecard.json + dashboard.html
+data/posthog.db
+data/*.log
+data/_smoketest.db
+*.log
+__pycache__/
+scripts/__pycache__/

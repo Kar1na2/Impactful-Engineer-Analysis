@@ -1,0 +1,1272 @@
+{
+  "generated_at": "2026-07-06T22:33:45.897243+00:00",
+  "window": {
+    "start": "2026-04-07",
+    "end": "2026-07-06"
+  },
+  "repos": [
+    "PostHog/posthog",
+    "PostHog/posthog-js",
+    "PostHog/posthog-python"
+  ],
+  "weights": {
+    "commits": 0.15,
+    "lines": 0.15,
+    "prs": 0.2,
+    "reviews_given": 0.25,
+    "issues": 0.1,
+    "spike": 0.15
+  },
+  "spike_windows": {
+    "PostHog/posthog-js": [
+      [
+        "2026-05-31",
+        "2026-06-14"
+      ]
+    ],
+    "PostHog/posthog-python": [
+      [
+        "2026-06-13",
+        "2026-06-17"
+      ],
+      [
+        "2026-06-25",
+        "2026-06-28"
+      ]
+    ]
+  },
+  "engineers": [
+    {
+      "rank": 1,
+      "login": "pauldambra",
+      "impact": 62.64,
+      "commits": 654,
+      "additions": 11964,
+      "deletions": 1406,
+      "prs_merged": 633,
+      "reviews_given": 276,
+      "issues_opened": 5,
+      "spike_prs": 11,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm"
+      ],
+      "components": {
+        "commits": 0.721058434399118,
+        "lines": 0.3456982957240141,
+        "prs": 0.6512345679012346,
+        "reviews_given": 0.9787234042553191,
+        "issues": 0.22727272727272727,
+        "spike": 0.4583333333333333
+      },
+      "contrib": {
+        "commits": 10.82,
+        "lines": 5.19,
+        "prs": 13.02,
+        "reviews_given": 24.47,
+        "issues": 2.27,
+        "spike": 6.87
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 623,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 31,
+          "adds": 11964,
+          "dels": 1406
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "login": "marandaneto",
+      "impact": 60.39,
+      "commits": 221,
+      "additions": 39281,
+      "deletions": 11306,
+      "prs_merged": 213,
+      "reviews_given": 282,
+      "issues_opened": 5,
+      "spike_prs": 24,
+      "primary_sdk": "npm",
+      "primary_repo": "PostHog/posthog-js",
+      "sdk_touched": [
+        "npm",
+        "python"
+      ],
+      "components": {
+        "commits": 0.24366041896361632,
+        "lines": 0.6724360638236452,
+        "prs": 0.2191358024691358,
+        "reviews_given": 1.0,
+        "issues": 0.22727272727272727,
+        "spike": 1.0
+      },
+      "contrib": {
+        "commits": 3.65,
+        "lines": 10.09,
+        "prs": 4.38,
+        "reviews_given": 25.0,
+        "issues": 2.27,
+        "spike": 15.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 12,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 136,
+          "adds": 15446,
+          "dels": 5283
+        },
+        "PostHog/posthog-python": {
+          "commits": 73,
+          "adds": 23835,
+          "dels": 6023
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "login": "Gilbert09",
+      "impact": 57.96,
+      "commits": 907,
+      "additions": 0,
+      "deletions": 0,
+      "prs_merged": 972,
+      "reviews_given": 259,
+      "issues_opened": 0,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [],
+      "components": {
+        "commits": 1.0,
+        "lines": 0.0,
+        "prs": 1.0,
+        "reviews_given": 0.9184397163120568,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 15.0,
+        "lines": 0.0,
+        "prs": 20.0,
+        "reviews_given": 22.96,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 907,
+          "adds": 0,
+          "dels": 0
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "login": "andrewm4894",
+      "impact": 42.16,
+      "commits": 350,
+      "additions": 2728,
+      "deletions": 20,
+      "prs_merged": 346,
+      "reviews_given": 242,
+      "issues_opened": 12,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm",
+        "python"
+      ],
+      "components": {
+        "commits": 0.38588754134509373,
+        "lines": 0.1567255848127299,
+        "prs": 0.3559670781893004,
+        "reviews_given": 0.8581560283687943,
+        "issues": 0.5454545454545454,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 5.79,
+        "lines": 2.35,
+        "prs": 7.12,
+        "reviews_given": 21.45,
+        "issues": 5.45,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 347,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 1,
+          "adds": 2498,
+          "dels": 13
+        },
+        "PostHog/posthog-python": {
+          "commits": 2,
+          "adds": 230,
+          "dels": 7
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "login": "richardsolomou",
+      "impact": 32.63,
+      "commits": 103,
+      "additions": 99716,
+      "deletions": 12160,
+      "prs_merged": 97,
+      "reviews_given": 138,
+      "issues_opened": 1,
+      "spike_prs": 2,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm",
+        "python"
+      ],
+      "components": {
+        "commits": 0.11356119073869901,
+        "lines": 1.0,
+        "prs": 0.09979423868312758,
+        "reviews_given": 0.48936170212765956,
+        "issues": 0.045454545454545456,
+        "spike": 0.08333333333333333
+      },
+      "contrib": {
+        "commits": 1.7,
+        "lines": 15.0,
+        "prs": 2.0,
+        "reviews_given": 12.23,
+        "issues": 0.45,
+        "spike": 1.25
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 77,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 23,
+          "adds": 67966,
+          "dels": 12160
+        },
+        "PostHog/posthog-python": {
+          "commits": 3,
+          "adds": 31750,
+          "dels": 0
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "login": "rnegron",
+      "impact": 32.39,
+      "commits": 214,
+      "additions": 0,
+      "deletions": 0,
+      "prs_merged": 229,
+      "reviews_given": 262,
+      "issues_opened": 2,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [],
+      "components": {
+        "commits": 0.23594266813671444,
+        "lines": 0.0,
+        "prs": 0.23559670781893005,
+        "reviews_given": 0.9290780141843972,
+        "issues": 0.09090909090909091,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 3.54,
+        "lines": 0.0,
+        "prs": 4.71,
+        "reviews_given": 23.23,
+        "issues": 0.91,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 214,
+          "adds": 0,
+          "dels": 0
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "login": "webjunkie",
+      "impact": 31.66,
+      "commits": 253,
+      "additions": 0,
+      "deletions": 0,
+      "prs_merged": 271,
+      "reviews_given": 247,
+      "issues_opened": 0,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [],
+      "components": {
+        "commits": 0.278941565600882,
+        "lines": 0.0,
+        "prs": 0.2788065843621399,
+        "reviews_given": 0.875886524822695,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 4.18,
+        "lines": 0.0,
+        "prs": 5.58,
+        "reviews_given": 21.9,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 253,
+          "adds": 0,
+          "dels": 0
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "login": "sampennington",
+      "impact": 29.7,
+      "commits": 368,
+      "additions": 92,
+      "deletions": 24,
+      "prs_merged": 369,
+      "reviews_given": 165,
+      "issues_opened": 2,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm"
+      ],
+      "components": {
+        "commits": 0.40573318632855565,
+        "lines": 0.03220034534500393,
+        "prs": 0.37962962962962965,
+        "reviews_given": 0.5851063829787234,
+        "issues": 0.09090909090909091,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 6.09,
+        "lines": 0.48,
+        "prs": 7.59,
+        "reviews_given": 14.63,
+        "issues": 0.91,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 367,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 1,
+          "adds": 92,
+          "dels": 24
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "login": "haacked",
+      "impact": 29.26,
+      "commits": 139,
+      "additions": 116,
+      "deletions": 21,
+      "prs_merged": 110,
+      "reviews_given": 160,
+      "issues_opened": 22,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm",
+        "python"
+      ],
+      "components": {
+        "commits": 0.15325248070562295,
+        "lines": 0.03499385745683039,
+        "prs": 0.11316872427983539,
+        "reviews_given": 0.5673758865248227,
+        "issues": 1.0,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 2.3,
+        "lines": 0.52,
+        "prs": 2.26,
+        "reviews_given": 14.18,
+        "issues": 10.0,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 133,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 5,
+          "adds": 115,
+          "dels": 20
+        },
+        "PostHog/posthog-python": {
+          "commits": 1,
+          "adds": 1,
+          "dels": 1
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "login": "rafaeelaudibert",
+      "impact": 27.67,
+      "commits": 135,
+      "additions": 98,
+      "deletions": 126,
+      "prs_merged": 127,
+      "reviews_given": 250,
+      "issues_opened": 0,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm"
+      ],
+      "components": {
+        "commits": 0.14884233737596472,
+        "lines": 0.04474613659258306,
+        "prs": 0.13065843621399176,
+        "reviews_given": 0.8865248226950354,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 2.23,
+        "lines": 0.67,
+        "prs": 2.61,
+        "reviews_given": 22.16,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 133,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 2,
+          "adds": 98,
+          "dels": 126
+        }
+      }
+    },
+    {
+      "rank": 11,
+      "login": "skoob13",
+      "impact": 27.64,
+      "commits": 145,
+      "additions": 0,
+      "deletions": 0,
+      "prs_merged": 197,
+      "reviews_given": 234,
+      "issues_opened": 1,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [],
+      "components": {
+        "commits": 0.15986769570011025,
+        "lines": 0.0,
+        "prs": 0.20267489711934156,
+        "reviews_given": 0.8297872340425532,
+        "issues": 0.045454545454545456,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 2.4,
+        "lines": 0.0,
+        "prs": 4.05,
+        "reviews_given": 20.74,
+        "issues": 0.45,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 145,
+          "adds": 0,
+          "dels": 0
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "login": "dustinbyrne",
+      "impact": 25.73,
+      "commits": 50,
+      "additions": 9941,
+      "deletions": 12612,
+      "prs_merged": 48,
+      "reviews_given": 122,
+      "issues_opened": 3,
+      "spike_prs": 8,
+      "primary_sdk": "npm",
+      "primary_repo": "PostHog/posthog-js",
+      "sdk_touched": [
+        "npm",
+        "python"
+      ],
+      "components": {
+        "commits": 0.05512679162072767,
+        "lines": 0.4489869257977841,
+        "prs": 0.04938271604938271,
+        "reviews_given": 0.4326241134751773,
+        "issues": 0.13636363636363635,
+        "spike": 0.3333333333333333
+      },
+      "contrib": {
+        "commits": 0.83,
+        "lines": 6.73,
+        "prs": 0.99,
+        "reviews_given": 10.82,
+        "issues": 1.36,
+        "spike": 5.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 5,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 38,
+          "adds": 9118,
+          "dels": 12573
+        },
+        "PostHog/posthog-python": {
+          "commits": 7,
+          "adds": 823,
+          "dels": 39
+        }
+      }
+    },
+    {
+      "rank": 13,
+      "login": "ioannisj",
+      "impact": 25.68,
+      "commits": 37,
+      "additions": 16603,
+      "deletions": 402,
+      "prs_merged": 35,
+      "reviews_given": 76,
+      "issues_opened": 19,
+      "spike_prs": 5,
+      "primary_sdk": "npm",
+      "primary_repo": "PostHog/posthog-js",
+      "sdk_touched": [
+        "npm"
+      ],
+      "components": {
+        "commits": 0.040793825799338476,
+        "lines": 0.3898700313603579,
+        "prs": 0.0360082304526749,
+        "reviews_given": 0.2695035460992908,
+        "issues": 0.8636363636363636,
+        "spike": 0.20833333333333334
+      },
+      "contrib": {
+        "commits": 0.61,
+        "lines": 5.85,
+        "prs": 0.72,
+        "reviews_given": 6.74,
+        "issues": 8.64,
+        "spike": 3.12
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 10,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 27,
+          "adds": 16603,
+          "dels": 402
+        }
+      }
+    },
+    {
+      "rank": 14,
+      "login": "lucasheriques",
+      "impact": 23.75,
+      "commits": 104,
+      "additions": 21297,
+      "deletions": 1039,
+      "prs_merged": 102,
+      "reviews_given": 109,
+      "issues_opened": 1,
+      "spike_prs": 5,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm",
+        "python"
+      ],
+      "components": {
+        "commits": 0.11466372657111357,
+        "lines": 0.4468216781564058,
+        "prs": 0.10493827160493827,
+        "reviews_given": 0.38652482269503546,
+        "issues": 0.045454545454545456,
+        "spike": 0.20833333333333334
+      },
+      "contrib": {
+        "commits": 1.72,
+        "lines": 6.7,
+        "prs": 2.1,
+        "reviews_given": 9.66,
+        "issues": 0.45,
+        "spike": 3.12
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 86,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 17,
+          "adds": 15438,
+          "dels": 1039
+        },
+        "PostHog/posthog-python": {
+          "commits": 1,
+          "adds": 5859,
+          "dels": 0
+        }
+      }
+    },
+    {
+      "rank": 15,
+      "login": "TueHaulund",
+      "impact": 23.33,
+      "commits": 126,
+      "additions": 4389,
+      "deletions": 124,
+      "prs_merged": 128,
+      "reviews_given": 162,
+      "issues_opened": 0,
+      "spike_prs": 2,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm"
+      ],
+      "components": {
+        "commits": 0.13891951488423374,
+        "lines": 0.20084646929852382,
+        "prs": 0.13168724279835392,
+        "reviews_given": 0.574468085106383,
+        "issues": 0.0,
+        "spike": 0.08333333333333333
+      },
+      "contrib": {
+        "commits": 2.08,
+        "lines": 3.01,
+        "prs": 2.63,
+        "reviews_given": 14.36,
+        "issues": 0.0,
+        "spike": 1.25
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 115,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 11,
+          "adds": 4389,
+          "dels": 124
+        }
+      }
+    },
+    {
+      "rank": 16,
+      "login": "turnipdabeets",
+      "impact": 23.07,
+      "commits": 72,
+      "additions": 13152,
+      "deletions": 3810,
+      "prs_merged": 61,
+      "reviews_given": 102,
+      "issues_opened": 3,
+      "spike_prs": 7,
+      "primary_sdk": "npm",
+      "primary_repo": "PostHog/posthog-js",
+      "sdk_touched": [
+        "npm",
+        "python"
+      ],
+      "components": {
+        "commits": 0.07938257993384785,
+        "lines": 0.3893767934104374,
+        "prs": 0.06275720164609054,
+        "reviews_given": 0.3617021276595745,
+        "issues": 0.13636363636363635,
+        "spike": 0.2916666666666667
+      },
+      "contrib": {
+        "commits": 1.19,
+        "lines": 5.84,
+        "prs": 1.26,
+        "reviews_given": 9.04,
+        "issues": 1.36,
+        "spike": 4.38
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 15,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 50,
+          "adds": 12595,
+          "dels": 3703
+        },
+        "PostHog/posthog-python": {
+          "commits": 7,
+          "adds": 557,
+          "dels": 107
+        }
+      }
+    },
+    {
+      "rank": 17,
+      "login": "lricoy",
+      "impact": 21.3,
+      "commits": 149,
+      "additions": 257,
+      "deletions": 5,
+      "prs_merged": 152,
+      "reviews_given": 162,
+      "issues_opened": 0,
+      "spike_prs": 1,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm"
+      ],
+      "components": {
+        "commits": 0.16427783902976847,
+        "lines": 0.048392959284884914,
+        "prs": 0.15637860082304528,
+        "reviews_given": 0.574468085106383,
+        "issues": 0.0,
+        "spike": 0.041666666666666664
+      },
+      "contrib": {
+        "commits": 2.46,
+        "lines": 0.73,
+        "prs": 3.13,
+        "reviews_given": 14.36,
+        "issues": 0.0,
+        "spike": 0.62
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 148,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 1,
+          "adds": 257,
+          "dels": 5
+        }
+      }
+    },
+    {
+      "rank": 18,
+      "login": "Piccirello",
+      "impact": 16.44,
+      "commits": 84,
+      "additions": 117,
+      "deletions": 109,
+      "prs_merged": 87,
+      "reviews_given": 142,
+      "issues_opened": 0,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm",
+        "python"
+      ],
+      "components": {
+        "commits": 0.0926130099228225,
+        "lines": 0.044945452218665395,
+        "prs": 0.08950617283950617,
+        "reviews_given": 0.5035460992907801,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 1.39,
+        "lines": 0.67,
+        "prs": 1.79,
+        "reviews_given": 12.59,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 75,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 4,
+          "adds": 87,
+          "dels": 83
+        },
+        "PostHog/posthog-python": {
+          "commits": 5,
+          "adds": 30,
+          "dels": 26
+        }
+      }
+    },
+    {
+      "rank": 19,
+      "login": "carlos-marchal-ph",
+      "impact": 15.48,
+      "commits": 85,
+      "additions": 4565,
+      "deletions": 1443,
+      "prs_merged": 88,
+      "reviews_given": 92,
+      "issues_opened": 0,
+      "spike_prs": 1,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm",
+        "python"
+      ],
+      "components": {
+        "commits": 0.09371554575523705,
+        "lines": 0.23173759573149122,
+        "prs": 0.09053497942386832,
+        "reviews_given": 0.3262411347517731,
+        "issues": 0.0,
+        "spike": 0.041666666666666664
+      },
+      "contrib": {
+        "commits": 1.41,
+        "lines": 3.48,
+        "prs": 1.81,
+        "reviews_given": 8.16,
+        "issues": 0.0,
+        "spike": 0.62
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 73,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 9,
+          "adds": 3259,
+          "dels": 1437
+        },
+        "PostHog/posthog-python": {
+          "commits": 3,
+          "adds": 1306,
+          "dels": 6
+        }
+      }
+    },
+    {
+      "rank": 20,
+      "login": "danielcarletti",
+      "impact": 15.34,
+      "commits": 126,
+      "additions": 0,
+      "deletions": 0,
+      "prs_merged": 127,
+      "reviews_given": 115,
+      "issues_opened": 1,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [],
+      "components": {
+        "commits": 0.13891951488423374,
+        "lines": 0.0,
+        "prs": 0.13065843621399176,
+        "reviews_given": 0.4078014184397163,
+        "issues": 0.045454545454545456,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 2.08,
+        "lines": 0.0,
+        "prs": 2.61,
+        "reviews_given": 10.2,
+        "issues": 0.45,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 126,
+          "adds": 0,
+          "dels": 0
+        }
+      }
+    },
+    {
+      "rank": 21,
+      "login": "veryayskiy",
+      "impact": 14.14,
+      "commits": 143,
+      "additions": 1078,
+      "deletions": 120,
+      "prs_merged": 147,
+      "reviews_given": 66,
+      "issues_opened": 3,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm"
+      ],
+      "components": {
+        "commits": 0.15766262403528114,
+        "lines": 0.1034808396359519,
+        "prs": 0.15123456790123457,
+        "reviews_given": 0.23404255319148937,
+        "issues": 0.13636363636363635,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 2.36,
+        "lines": 1.55,
+        "prs": 3.02,
+        "reviews_given": 5.85,
+        "issues": 1.36,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 140,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 3,
+          "adds": 1078,
+          "dels": 120
+        }
+      }
+    },
+    {
+      "rank": 22,
+      "login": "jonmcwest",
+      "impact": 12.94,
+      "commits": 173,
+      "additions": 1219,
+      "deletions": 31,
+      "prs_merged": 184,
+      "reviews_given": 53,
+      "issues_opened": 0,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm"
+      ],
+      "components": {
+        "commits": 0.19073869900771775,
+        "lines": 0.10570281210259097,
+        "prs": 0.18930041152263374,
+        "reviews_given": 0.1879432624113475,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 2.86,
+        "lines": 1.59,
+        "prs": 3.79,
+        "reviews_given": 4.7,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 171,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 2,
+          "adds": 1219,
+          "dels": 31
+        }
+      }
+    },
+    {
+      "rank": 23,
+      "login": "thmsobrmlr",
+      "impact": 12.32,
+      "commits": 134,
+      "additions": 0,
+      "deletions": 0,
+      "prs_merged": 142,
+      "reviews_given": 81,
+      "issues_opened": 0,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [],
+      "components": {
+        "commits": 0.14773980154355015,
+        "lines": 0.0,
+        "prs": 0.14609053497942387,
+        "reviews_given": 0.2872340425531915,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 2.22,
+        "lines": 0.0,
+        "prs": 2.92,
+        "reviews_given": 7.18,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 134,
+          "adds": 0,
+          "dels": 0
+        }
+      }
+    },
+    {
+      "rank": 24,
+      "login": "gustavohstrassburger",
+      "impact": 12.25,
+      "commits": 62,
+      "additions": 2733,
+      "deletions": 111,
+      "prs_merged": 61,
+      "reviews_given": 63,
+      "issues_opened": 3,
+      "spike_prs": 1,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm",
+        "python"
+      ],
+      "components": {
+        "commits": 0.06835722160970231,
+        "lines": 0.15943964947103775,
+        "prs": 0.06275720164609054,
+        "reviews_given": 0.22340425531914893,
+        "issues": 0.13636363636363635,
+        "spike": 0.041666666666666664
+      },
+      "contrib": {
+        "commits": 1.03,
+        "lines": 2.39,
+        "prs": 1.26,
+        "reviews_given": 5.59,
+        "issues": 1.36,
+        "spike": 0.62
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 54,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 4,
+          "adds": 1298,
+          "dels": 33
+        },
+        "PostHog/posthog-python": {
+          "commits": 4,
+          "adds": 1435,
+          "dels": 78
+        }
+      }
+    },
+    {
+      "rank": 25,
+      "login": "jurajmajerik",
+      "impact": 12.22,
+      "commits": 133,
+      "additions": 0,
+      "deletions": 0,
+      "prs_merged": 138,
+      "reviews_given": 81,
+      "issues_opened": 0,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [],
+      "components": {
+        "commits": 0.1466372657111356,
+        "lines": 0.0,
+        "prs": 0.1419753086419753,
+        "reviews_given": 0.2872340425531915,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 2.2,
+        "lines": 0.0,
+        "prs": 2.84,
+        "reviews_given": 7.18,
+        "issues": 0.0,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 133,
+          "adds": 0,
+          "dels": 0
+        }
+      }
+    },
+    {
+      "rank": 26,
+      "login": "robbie-c",
+      "impact": 10.75,
+      "commits": 136,
+      "additions": 51,
+      "deletions": 5,
+      "prs_merged": 147,
+      "reviews_given": 51,
+      "issues_opened": 0,
+      "spike_prs": 1,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm"
+      ],
+      "components": {
+        "commits": 0.14994487320837926,
+        "lines": 0.02237306829629153,
+        "prs": 0.15123456790123457,
+        "reviews_given": 0.18085106382978725,
+        "issues": 0.0,
+        "spike": 0.041666666666666664
+      },
+      "contrib": {
+        "commits": 2.25,
+        "lines": 0.34,
+        "prs": 3.02,
+        "reviews_given": 4.52,
+        "issues": 0.0,
+        "spike": 0.62
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 135,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 1,
+          "adds": 51,
+          "dels": 5
+        }
+      }
+    },
+    {
+      "rank": 27,
+      "login": "patricio-posthog",
+      "impact": 6.38,
+      "commits": 38,
+      "additions": 541,
+      "deletions": 143,
+      "prs_merged": 37,
+      "reviews_given": 38,
+      "issues_opened": 1,
+      "spike_prs": 0,
+      "primary_sdk": null,
+      "primary_repo": "PostHog/posthog",
+      "sdk_touched": [
+        "npm",
+        "python"
+      ],
+      "components": {
+        "commits": 0.04189636163175303,
+        "lines": 0.07819150740940925,
+        "prs": 0.03806584362139918,
+        "reviews_given": 0.1347517730496454,
+        "issues": 0.045454545454545456,
+        "spike": 0.0
+      },
+      "contrib": {
+        "commits": 0.63,
+        "lines": 1.17,
+        "prs": 0.76,
+        "reviews_given": 3.37,
+        "issues": 0.45,
+        "spike": 0.0
+      },
+      "repos": {
+        "PostHog/posthog": {
+          "commits": 33,
+          "adds": 0,
+          "dels": 0
+        },
+        "PostHog/posthog-js": {
+          "commits": 2,
+          "adds": 211,
+          "dels": 11
+        },
+        "PostHog/posthog-python": {
+          "commits": 3,
+          "adds": 330,
+          "dels": 132
+        }
+      }
+    }
+  ]
+}
