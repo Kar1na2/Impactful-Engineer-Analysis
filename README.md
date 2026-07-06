@@ -53,4 +53,24 @@ pypistats overall posthog --start-date 2026-04-07 --end-date 2026-07-06 --daily 
 
 ## **Results** 
 
-Findings will be presented in `Details.md`
+Being short on time, I used Claude to do most of the heavy lifting with the website generation, etc and published the [website](https://kar1na2.github.io/Impactful-Engineer-Analysis/) as a static webpage using Github Pages
+
+My notes on the correlation of events and dates as well as issues I ran into has been noted down in `personal notes.md`
+
+Also using Claude, I have generated the scoring system, methodology, as well as reproducability all in `Details.md`
+
+## **Things to improve on**
+
+A metric I wanted to utilize the most was the details in an engineer's PR, their Github Issue post, their commit messages. However, taking into consideration every single Issue posted, every single commit made took up too much time. I can remove the need of analyzing each commit and focus on the bigger picture with the PR although a fear is that I'll be crediting too much or discrediting by losing the specificity. 
+
+An alternate solution I'm thinking of is instead of going from bottom up, I instead look from top to bottom with looking at the version releases then looking at the time period between the version and the next and seeing if it changed the general trend for customer usage (this will impact the weight of the contribution a bit). Then I will look at the engineers that contributed for that version release and categorize them on what they have specifically worked on. Afterwards, I would accumulate each engineer's contribution and then rank them based on how many releases they were part of and how much impact they had for each release. 
+
+I also failed to acknowledge the exceptions I have noted down earlier, a separate filtering to accomodate for that exception will also help improve my analysis to be more accurate in determining the **impact** engineers had on PostHog
+
+## **Time**
+
+This is a screenshot of the timer I had running in the background while working on this project
+
+![alt text](image.png)
+
+1 hour 32 minutes and 53 seconds is when I stopped the timer, wrapping up the *Things to improve on* section as well as this costed me around 2-3 more minutes.
