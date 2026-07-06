@@ -90,12 +90,21 @@ despite a fraction of Gilbert09's raw commit count.
 | ioannisj | 25.7 | 35 | 5 |
 | turnipdabeets | 23.1 | 61 | 7 |
 
-**Python SDK (`posthog-python`) — no dedicated maintainer.** No engineer in the impact pool
-has `posthog-python` as their *primary* repo. Its contributions come from cross-SDK and
-platform engineers in small increments (marandaneto 73 commits — the most, and he's npm-first;
-everyone else in single digits). **This is itself a finding:** the Python SDK is maintained
+**Python SDK (`posthog-python`) — active, but no dedicated maintainer.** 23 non-bot engineers
+committed to `posthog-python` in-window (it was *not* idle), but none has it as their *primary*
+repo. Work is concentrated in **marandaneto (73 commits — the most, and he's npm-first)**, then a
+long tail of 1–7 commits each. **This is itself a finding:** the Python SDK is maintained
 opportunistically rather than owned, a candidate area for the README's "notable exceptions"
 (future-development risk) — worth a dedicated owner.
+
+### A note on MCP
+The standalone **`PostHog/mcp`** repo (the official MCP server) is **dormant** — 0 commits / 0
+merged PRs in-window, last touched 2026-01-19. But MCP is very much active: it's built **inside
+the monorepo**, with **641 merged MCP-titled PRs** in the window and a dedicated `team-mcp-analytics`.
+Top MCP authors: **skoob13 (81)**, pauldambra (50), **gesh (48)**, mp-hog (37), sampennington (32).
+MCP is *not* broken out as its own lane in this analysis — those PRs are counted under "Platform" —
+so MCP specialists like **skoob13** and **gesh** are under-credited relative to their customer-facing
+impact. Treating MCP as a distinct area (like the SDKs) is the clearest next iteration.
 
 ---
 

@@ -232,14 +232,25 @@ document.querySelectorAll(".fbtn").forEach(b=>b.onclick=()=>{
 drawBars("all");
 
 // SDK lists
-function miniList(sdk,title){
+function miniList(sdk,title,emptyNote){
   const l = eng.filter(e=>e.primary_sdk===sdk).slice(0,5);
-  return `<div style="font-weight:600;margin-bottom:4px">${title}</div>` +
-    l.map(e=>`<div class="mini"><span>${e.login}</span>
+  const head = `<div style="font-weight:600;margin-bottom:4px">${title}</div>`;
+  if(!l.length) return head + `<div class="note" style="margin:0">${emptyNote}</div>`;
+  return head + l.map(e=>`<div class="mini"><span>${e.login}</span>
       <span class="v">${e.impact} · ${fmt(e.prs_merged)} PRs</span></div>`).join("");
 }
-document.getElementById("npmlist").innerHTML = miniList("npm","🔴 npm — posthog-js");
-document.getElementById("pylist").innerHTML  = miniList("python","🟡 Python — posthog-python");
+document.getElementById("npmlist").innerHTML = miniList("npm","🔴 npm — posthog-js","");
+document.getElementById("pylist").innerHTML  = miniList("python","🟡 Python — posthog-python",
+  "23 engineers committed in-window, but <b>no dedicated maintainer</b>: " +
+  "<a href='https://github.com/marandaneto' target='_blank'>marandaneto</a> led with 73 commits " +
+  "(npm-first), then a long tail of 1–7 commits each. A future-development risk — worth a dedicated owner.");
+// MCP clarification: active area that lives in the monorepo, not the dormant standalone repo.
+document.getElementById("pylist").innerHTML +=
+  `<div class="note" style="margin:12px 0 0;border-top:1px solid var(--line);padding-top:10px">
+   <b>Note on MCP:</b> the standalone <code>PostHog/mcp</code> repo is dormant (last commit Jan 2026),
+   but MCP is actively built <i>inside the monorepo</i> — <b>641 merged MCP PRs</b> in-window
+   (top authors: skoob13 81, pauldambra 50, gesh 48, mp-hog 37). It's folded into "Platform" here,
+   not broken out as its own lane.</div>`;
 
 // spikes
 const sw = DATA.spike_windows;
