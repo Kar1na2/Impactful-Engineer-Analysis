@@ -71,6 +71,6 @@ I also failed to acknowledge the exceptions I have noted down earlier, a separat
 
 This is a screenshot of the timer I had running in the background while working on this project
 
-![alt text](Images/Timer.png)
+![alt text](images/Timer.png)
 
 1 hour 32 minutes and 53 seconds is when I stopped the timer, wrapping up the *Things to improve on* section as well as this costed me around 2-3 more minutes.
