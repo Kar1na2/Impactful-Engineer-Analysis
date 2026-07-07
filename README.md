@@ -67,6 +67,10 @@ An alternate solution I'm thinking of is instead of going from bottom up, I inst
 
 I also failed to acknowledge the exceptions I have noted down earlier, a separate filtering to accomodate for that exception will also help improve my analysis to be more accurate in determining the **impact** engineers had on PostHog.
 
+A careless mistake on my part was not taking the time to properly designate the top 5 engineers myself. By letting Claude be in charge of the deterministic finale, there was too little time for me to restart the analysis portion, so I didn't flag the lack of mention in the version releases of MCP properly. 
+
+If I had prompted differently with a conversation such as [this](https://claude.ai/share/57ece428-38cc-4a4f-9f62-e05b27fd030a), then I would have been able to see that [@lucasheriques](https://github.com/lucasheriques), who in my opinion should be in the top 5 impactful engineers, got overlooked in the final results.
+
 ## **Time**
 
 This is a screenshot of the timer I had running in the background while working on this project
